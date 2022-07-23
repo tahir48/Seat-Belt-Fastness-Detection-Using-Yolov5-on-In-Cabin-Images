@@ -11,3 +11,7 @@ This repository contains a seat belt fastness detection algorithm. Yolo-v5 is us
 
 ## Data Selection And Annotation
 Frames were selected as many different lightning, angle, pose etc. as possible to avoid bias. The final decision making algortihm is chosen to be checking whether centroids of bounded boxes are colinear or not, therefore in annotation phase, whole seat belt is selected into three frames. 
+
+
+![alt text](./images/annotation.jpg)
+
